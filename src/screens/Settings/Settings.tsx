@@ -1,7 +1,6 @@
 import React from 'react'
 import {View} from 'react-native'
 import {Linking} from 'react-native'
-
 import {AppBskyActorDefs, moderateProfile} from '@atproto/api'
 import {msg, Trans} from '@lingui/macro'
 import {useLingui} from '@lingui/react'
@@ -9,7 +8,6 @@ import {NativeStackScreenProps} from '@react-navigation/native-stack'
 
 import {HELP_DESK_URL} from '#/lib/constants'
 import {CommonNavigatorParams} from '#/lib/routes/types'
-
 import {useProfileShadow} from '#/state/cache/profile-shadow'
 import {useModerationOpts} from '#/state/preferences/moderation-opts'
 import {useProfileQuery, useProfilesQuery} from '#/state/queries/profile'
@@ -36,7 +34,6 @@ import {
 import {RaisingHand4Finger_Stroke2_Corner2_Rounded as HandIcon} from '#/components/icons/RaisingHand'
 import {Window_Stroke2_Corner2_Rounded as WindowIcon} from '#/components/icons/Window'
 import * as Layout from '#/components/Layout'
-
 import * as Prompt from '#/components/Prompt'
 
 type Props = NativeStackScreenProps<CommonNavigatorParams, 'Settings'>
